@@ -35,7 +35,7 @@ function Person(name , age) {
 }
 
 Person.prototype.introduce = function(){
-    return 'ad'+":"+this.name +" " + 'yash' + ":" +this.age
+    return 'name'+":"+this.name +" " + 'age' + ":" +this.age
 }
 const person = new Person("Hasan",5)
 
